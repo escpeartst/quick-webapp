@@ -7,11 +7,11 @@ export default function Home() {
           <div><h1 style={{ fontSize: 28, fontWeight: 600 }}>Let there be light...</h1></div>
           <div style={{ display: 'flex'}}>
             <div style={{ marginRight: '12px'}}>
-              <Image src={"/IMG_9854.jpeg"} alt={""} width={"600"} height={"800"}
+              <Image src={"/IMG_9854.jpeg"} alt={""} width={"400"} height={"800"} style={{ maxWidth: '400px'}}
               />
             </div>
             <div>
-              <Image src={"/IMG_9855.jpeg"} alt={""} width={"600"} height={"800"}
+              <Image src={"/IMG_9855.jpeg"} alt={""} width={"400"} height={"800"} style={{ maxWidth: '400px'}}
               />
             </div>
           </div>
